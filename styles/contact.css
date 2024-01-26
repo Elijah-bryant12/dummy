@@ -35,6 +35,8 @@ body{
   flex: 1;
   height: 800px;
   justify-content: center;
+  background-position: center;
+  background-size: cover;
 }
 
 .contact-details{
@@ -59,7 +61,7 @@ body{
 .contact-email{
   display: flex;
   flex-direction: row;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.247);
   border-radius: 10px;
   margin-top: 10px;
   padding: 10px;
@@ -69,7 +71,7 @@ body{
 .contact-phone-number{
   display: flex;
   flex-direction: row;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.247);
   border-radius: 10px;
   margin-top: 10px;
   padding: 10px;
@@ -80,7 +82,7 @@ body{
 .contact-location{
   display: flex;
   flex-direction: row;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.247);
   border-radius: 10px;
   margin-top: 10px;
   padding: 10px;
@@ -89,31 +91,42 @@ body{
 
 .email-icon{
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 .email{
   flex: 1;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: white;
 }
 
 .phone-number-icon{
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+
 }
 
 .phone-number{
+  display: flex;
   flex: 1;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: white;
 }
 .location-icon{
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 .location{
   flex: 1;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: white;
 }
 
 .messanger{
