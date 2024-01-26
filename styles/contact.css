@@ -86,6 +86,23 @@ body{
   box-shadow: inset 2px 1px 3px black;
 }
 
+.email-icon{
+  display: flex;
+  flex: 100px;
+}
+
+.email{
+  flex: 1;
+}
+
+.phone-number-icon{
+  display: flex;
+  flex: 100px;
+}
+
+.phone-number{
+  flex: 1;
+}
 .messanger{
   display: flex;
   flex: 1;
