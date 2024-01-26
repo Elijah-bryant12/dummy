@@ -74,6 +74,7 @@ body{
   margin-top: 10px;
   padding: 10px;
   box-shadow: inset 2px 1px 3px black;
+  vertical-align: center;
 }
 
 .contact-location{
@@ -88,7 +89,8 @@ body{
 
 .email-icon{
   display: flex;
-  flex: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 .email{
@@ -97,12 +99,23 @@ body{
 
 .phone-number-icon{
   display: flex;
-  flex: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 .phone-number{
   flex: 1;
 }
+.location-icon{
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+
+.location{
+  flex: 1;
+}
+
 .messanger{
   display: flex;
   flex: 1;
